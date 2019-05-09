@@ -1,0 +1,6 @@
+framework module Pods_watchtestUITests {
+  umbrella header "Pods-watchtestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

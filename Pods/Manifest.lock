@@ -1,0 +1,39 @@
+PODS:
+  - Moscapsule (0.6.2)
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
+  - OpenSSL-Universal (1.0.2.17)
+
+DEPENDENCIES:
+  - Moscapsule (from `https://github.com/flightonary/Moscapsule.git`)
+  - MQTTClient
+  - OpenSSL-Universal
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MQTTClient
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  Moscapsule:
+    :git: https://github.com/flightonary/Moscapsule.git
+
+CHECKOUT OPTIONS:
+  Moscapsule:
+    :commit: bd40e53e7153f3d3775f3727296640e7415fde93
+    :git: https://github.com/flightonary/Moscapsule.git
+
+SPEC CHECKSUMS:
+  Moscapsule: dbf891e0a6b75cbe63c98d9bdbbad6ff4aaf00e6
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
+  OpenSSL-Universal: ff04c2e6befc3f1247ae039e60c93f76345b3b5a
+
+PODFILE CHECKSUM: a384a8012fd06f437532cacc9dfa18f0b5c92d5b
+
+COCOAPODS: 1.6.1
